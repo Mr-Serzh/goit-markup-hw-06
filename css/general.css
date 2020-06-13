@@ -509,22 +509,16 @@ img {
   outline-color: var(--accent-color);
 }
 
-.contract {
-  color: var(--accent-color);
-  text-decoration: underline;
-}
-
 .form-botton {
   border: 1px solid var(--accent-color);
 }
 
+/* checkbox */
 .checkbox-field {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .checkbox-label {
-  display: flex;
 }
 
 .checkbox:checked + .checkbox-icon {
@@ -545,6 +539,13 @@ img {
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.contract {
+  display: inline;
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+/* end checkbox */
 
 .close {
   position: absolute;
