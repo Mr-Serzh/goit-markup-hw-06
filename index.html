@@ -83,9 +83,12 @@
               <div class="form-field">
                 <textarea class="comment" name="comment" placeholder="Комментарий"></textarea>
               </div>
-              <div class="form-field">
-                <input type="checkbox" name="policy" id="policy" />
-                <label for="policy">Соглашаюсь с рассылкой и принимаю </label>
+              <div class="form-field checkbox-field">
+                <label class="checkbox-label">
+                  <input class="checkbox visually-hidden" type="checkbox" name="policy" />
+                  <span class="checkbox-icon"></span>
+                  <span>Соглашаюсь с рассылкой и принимаю</span>
+                </label>
                 <a class="link contract" href="#">Условия договора</a>
               </div>
               <button class="botton form-botton" type="submit">Отправить</button>
