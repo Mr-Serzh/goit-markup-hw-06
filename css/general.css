@@ -546,7 +546,14 @@ img {
 
 .contract {
   color: var(--accent-color);
+  text-decoration: none;
 }
+
+.contract:hover,
+.contract:focus {
+  text-decoration: underline;
+}
+
 /* end checkbox */
 
 .form-botton {
